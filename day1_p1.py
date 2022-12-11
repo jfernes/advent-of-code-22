@@ -1,14 +1,14 @@
 if __name__ == "__main__":
     file = open("day1input.txt", "r")
-    suma = 0
-    suma_max = 0
+    count = 0
+    count_max = 0
     for line in file:
         if (line == '\n'):
-            if (suma > suma_max):
-                suma_max = suma
-            suma = 0
+            if (count > count_max):
+                count_max = count
+            count = 0
         else:
-            suma += int(line.strip())
+            count += int(line.strip())
     
-    print(suma_max)    
+    print(count_max)    
     file.close()
