@@ -3,8 +3,8 @@ if __name__ == "__main__":
     count = 0
     count_max = 0
     for line in file:
-        if (line == '\n'):
-            if (count > count_max):
+        if line == '\n':
+            if count > count_max:
                 count_max = count
             count = 0
         else:
