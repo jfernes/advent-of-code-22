@@ -13,7 +13,7 @@ if __name__ == "__main__":
         "B": "Y",
         "C": "Z"
     }
-    
+
     file = open("day2input.txt", "r")
     score = 0
     for line in file:
