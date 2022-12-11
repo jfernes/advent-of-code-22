@@ -4,6 +4,7 @@ def get_ascii(c):
     else:
         return ord(c) - 64 + 26
 
+
 if __name__ == "__main__":
     prio_sum = 0
     file = open("day3input.txt", "r")
